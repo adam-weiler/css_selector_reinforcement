@@ -1,0 +1,15 @@
+h1 { /* Enlarge the "Hello" heading. */
+    font-size: 3em;
+}
+
+p { /* Change the colour of the text in the p tag. */
+    color: rgba(3, 211, 252, .9)
+}
+
+ul:nth-child(even) li { /* Set the lis containing the bear images to display: inline-block; (while leaving the lis in the nav as is). */
+    display: inline-block;
+}
+
+a:hover { /* Make it so the colour of the links changes when you hover your mouse over them. */
+    color: rgba(107, 252, 3)
+}
